@@ -217,10 +217,6 @@
         to take account of previous refactoring so that the page is used for
         404 errors rather than falling back to the default error page. (markt)
       </fix>
-      <fix>
-        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
-        clients. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
