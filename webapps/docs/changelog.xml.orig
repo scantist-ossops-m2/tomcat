@@ -113,6 +113,9 @@
         Within the Expires filter, make the content type value specified with the
         <code>ExpiresByType</code> parameter, case insensitive. (markt)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
