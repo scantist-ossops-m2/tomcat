@@ -154,6 +154,10 @@
   <subsection name="WebSocket">
     <changelog>
       <fix>
+        Additional fix for <bug>64830</bug> to address an edge case that could
+        trigger request corruption with h2c connections. (markt)
+      </fix>
+      <fix>
         <bug>64951</bug>: Fix a potential file descriptor leak when WebSocket
         connections are attempted and fail. Patch provided by Maurizio Adami.
         (markt)
