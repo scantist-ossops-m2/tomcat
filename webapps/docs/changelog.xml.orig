@@ -257,10 +257,6 @@
         <code>JDBCStore</code> is deprecated but remains unchanged. Patch
         submitted by Philippe Mouawad. (remm)
       </update>
-      <scode>
-        Use <code>java.nio.file.Path</code> to test for one directory being a
-        sub-directory of another in a consistent way. (markt)
-      </scode>
     </changelog>
   </subsection>
   <subsection name="Coyote">
