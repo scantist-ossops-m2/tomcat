@@ -89,6 +89,10 @@
         include a specific allowance for the path to the resource. Based on a
         pull request by blueSky1825821. (markt)
       </fix>
+      <add>
+        <bug>64871</bug>: Log a warning if Tomcat blocks access to a file
+        because it uses symlinks. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Coyote">
