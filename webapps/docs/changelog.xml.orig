@@ -147,6 +147,10 @@
         exception occurs for the operation, and add a boolean to make sure the
         completion handler is called only once. (remm/markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
