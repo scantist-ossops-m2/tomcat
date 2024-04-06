@@ -138,9 +138,6 @@
         <bug>60409</bug>: When unable to complete sendfile request, ensure the
         Processor will be added to the cache only once. (markt/violetagg)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
