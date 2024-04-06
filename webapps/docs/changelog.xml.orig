@@ -147,9 +147,6 @@
         subsequently incremented when using asynchronous processing over HTTP/2.
         (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
