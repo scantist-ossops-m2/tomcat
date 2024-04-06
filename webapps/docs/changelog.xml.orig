@@ -51,9 +51,6 @@
         Re-tagged to ensure that the source file for the changelog did not
         contain an XML byte order mark. (markt)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
 </section>
