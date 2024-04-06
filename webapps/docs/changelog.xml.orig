@@ -89,9 +89,6 @@
         visibility of classes, fields an methods in the EL implementation, also
         check that the containing modeul has been exported. (markt)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Web Socket">
