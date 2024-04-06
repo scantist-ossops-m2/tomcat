@@ -176,6 +176,10 @@
         HTTPS connector configured to use NIO or NIO2 with OpenSSL 1.1.1 or
         later. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
