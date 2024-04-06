@@ -188,6 +188,11 @@
         written regular expressions and the <code>RewriteValve</code>. Patch
         provided by salgattas. (markt)
       </add>
+      <add>
+        Add a new attribute, <code>allowedArbitraryRequestAttributes</code> to
+        the AJP/1.3 Connector. Requests with unreconised attributes will be
+        blocked with a 403. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="jdbc-pool">

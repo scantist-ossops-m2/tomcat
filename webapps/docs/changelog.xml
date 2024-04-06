@@ -116,6 +116,10 @@
         of the CGI servlet from <code>true</code> to <code>false</code> as
         additional hardening against CVE-2019-0232. (markt)
       </update>
+      <fix>
+        <bug>64467</bug>: Improve performance of closing idle HTTP/2 streams.
+        (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
