@@ -87,9 +87,6 @@
         compression was applied to all MIME types. Patch provided by Stefan
         Knoblich. (markt)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
