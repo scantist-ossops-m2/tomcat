@@ -455,6 +455,10 @@
         Update the internal fork of Apache Commons Pool 2 to 0664f4d
         (2019-04-30) to pick up some enhancements and bug fixes. (markt)
       </update>
+      <fix>
+        <bug>64467</bug>: Improve performance of closing idle HTTP/2 streams.
+        (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
