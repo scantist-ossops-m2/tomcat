@@ -230,11 +230,6 @@
         Shen, leeyazhou, winsonzhao, qingshi huang, Lay, Shucheng Hou and
         Yanming Zhou. (markt)
       </add>
-      <fix>
-        Correct a regression introduced in 8.5.48 that meant invalid tokens in
-        the <code>Transfer-Encoding</code> header were ignored rather than
-        treated as an error. (markt)
-      </fix>
     </changelog>
   </subsection>
 </section>
