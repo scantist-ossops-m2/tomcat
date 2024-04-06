@@ -80,9 +80,6 @@
         handling for resources with names that included a <code>&amp;</code>
         character. (markt)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
