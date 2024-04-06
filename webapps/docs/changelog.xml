@@ -75,6 +75,10 @@
         the <code>Transfer-Encoding</code> header were ignored rather than
         treated as an error. (markt)
       </fix>
+      <add>
+        <bug>64871</bug>: Log a warning if Tomcat blocks access to a file
+        because it uses symlinks. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Other">
