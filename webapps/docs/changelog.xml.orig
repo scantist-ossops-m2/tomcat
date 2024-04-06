@@ -613,6 +613,10 @@
         Update the NSIS Installer used to build the Windows installer to version
         3.03. (kkolinko)
       </update>
+      <fix>
+        <bug>64467</bug>: Improve performance of closing idle HTTP/2 streams.
+        (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
