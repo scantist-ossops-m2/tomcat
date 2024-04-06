@@ -299,9 +299,6 @@
         Windows installer for the Windows service from <code>Local System</code>
         to the lower privileged <code>Local Service</code>. (markt)
       </update>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
 </section>
