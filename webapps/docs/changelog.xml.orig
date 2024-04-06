@@ -215,10 +215,6 @@
         Ensure that members registered in the addSuspects list are static
         members. (kfujino)
       </fix>
-      <fix>
-        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
-        clients. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
