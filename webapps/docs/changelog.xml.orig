@@ -85,6 +85,9 @@
       <fix>
         Add security filter in OWB module in addition to the valve for more flexibility. (remm)
       </fix>
+      <add>
+        Improve validation of storage location when using FileStore. (markt)
+      </add>
     </changelog>
   </subsection>
 </section>
