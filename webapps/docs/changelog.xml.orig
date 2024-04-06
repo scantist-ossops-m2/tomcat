@@ -199,10 +199,6 @@
         implemented as per section JSP.1.14.2.1 of the JSP 2.3 specification.
         (markt)
       </fix>
-      <fix>
-        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
-        clients. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">

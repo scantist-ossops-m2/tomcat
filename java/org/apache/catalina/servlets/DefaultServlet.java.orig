@@ -1992,7 +1992,7 @@ public class DefaultServlet extends HttpServlet {
 
         // First check that the resulting path is under the provided base
         try {
-            if (!candidate.getCanonicalFile().toPath().startsWith(base.getCanonicalFile().toPath())) {
+            if (!candidate.getCanonicalPath().startsWith(base.getCanonicalPath())) {
                 return null;
             }
         } catch (IOException ioe) {
