@@ -291,6 +291,10 @@
         Update the packaged version of the Tomcat Native Library to 1.2.25.
         (markt)
       </update>
+      <scode>
+        Use <code>java.nio.file.Path</code> to test for one directory being a
+        sub-directory of another in a consistent way. (markt)
+      </scode>
     </changelog>
   </subsection>
 </section>
