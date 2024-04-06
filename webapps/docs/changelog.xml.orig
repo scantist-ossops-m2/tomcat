@@ -128,9 +128,6 @@
         When generating a redirect to a directory in the Default Servlet, avoid
         generating a protocol relative redirect. (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
