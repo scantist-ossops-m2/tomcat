@@ -148,6 +148,10 @@
         Fix a concurrency issue in the NIO connector that could cause newly
         created connections to be removed from the poller. (markt)
       </fix>
+      <fix>
+        Make handling of OpenSSL read errors more robust when plain text data is
+        reported to be available to read. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
