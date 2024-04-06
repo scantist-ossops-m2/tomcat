@@ -83,9 +83,6 @@
         <bug>61316</bug>: Fix corruption of UTF-16 encoded source files in
         released source distributions. (markt)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
 </section>
