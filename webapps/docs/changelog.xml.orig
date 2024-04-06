@@ -186,9 +186,6 @@
         <bug>64043</bug>: Ensure that session ID changes are replicated during
         form-authentication. (kfujino)
       </fix>
-      <add>
-        Improve validation of storage location when using FileStore. (markt)
-      </add>
     </changelog>
   </subsection>
   <subsection name="Web applications">
