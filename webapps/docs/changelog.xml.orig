@@ -121,6 +121,9 @@
         performed, the read/write would time out rather than return immediately.
         (markt)
       </fix>
+      <add>
+        Improve validation of storage location when using FileStore. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Jasper">
