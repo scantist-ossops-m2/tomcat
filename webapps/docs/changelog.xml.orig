@@ -181,6 +181,10 @@
   <subsection name="WebSocket">
     <changelog>
       <fix>
+        Additional fix for <bug>64830</bug> to address an edge case that could
+        trigger request corruption with h2c connections. (markt)
+      </fix>
+      <fix>
         Requests received via proxies may be marked as using the <code>ws</code>
         or <code>wss</code> protocol rather than <code>http</code> or
         <code>https</code>. Ensure that such requests are not rejected. PR
