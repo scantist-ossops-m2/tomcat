@@ -137,6 +137,10 @@
         Resolver Ant Tasks to upload artifacts to the ASF Maven repository (and
         from there to Maven Central). (markt)
       </update>
+      <scode>
+        Use <code>java.nio.file.Path</code> to test for one directory being a
+        sub-directory of another in a consistent way. (markt)
+      </scode>
     </changelog>
   </subsection>
 </section>
