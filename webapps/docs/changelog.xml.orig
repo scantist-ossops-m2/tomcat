@@ -99,9 +99,6 @@
         <bug>61364</bug>: Ensure that files are closed after detecting encoding
         of JSPs so that files do not remain locked by the file system. (markt)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
