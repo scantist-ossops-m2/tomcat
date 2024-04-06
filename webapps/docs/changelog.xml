@@ -142,6 +142,10 @@
   <subsection name="Other">
     <changelog>
       <fix>
+        Additional fix for <bug>64830</bug> to address an edge case that could
+        trigger request corruption with h2c connections. (markt)
+      </fix>
+      <fix>
         <bug>64501</bug>: Refactor the handling of the deprecated
         <code>LOGGING_CONFIG</code> environment variable to avoid using a POSIX
         shell feature that is not available by default on Solaris 10. (markt)
