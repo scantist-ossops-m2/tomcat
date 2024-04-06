@@ -227,10 +227,6 @@
         used when building the web application class path. Patch provided by
         Marcin Gołębski. (markt)
       </fix>
-      <fix>
-        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
-        clients. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
