@@ -130,6 +130,10 @@
   <subsection name="Jasper">
     <changelog>
       <fix>
+        Additional fix for <bug>64830</bug> to address an edge case that could
+        trigger request corruption with h2c connections. (markt)
+      </fix>
+      <fix>
         Use lazy instantiation to improve the performance when working with
         listeners added to the <code>ELContext</code>. Pull request provided by
         Thomas Andraschko. (markt)
