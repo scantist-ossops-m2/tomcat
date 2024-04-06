@@ -142,9 +142,6 @@
         non-empty messages to avoid the <code>IllegalArgumentException</code>.
         (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Tribes">
