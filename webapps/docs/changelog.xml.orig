@@ -133,9 +133,6 @@
         <code>catalina.properties</code> file for tomcat-i18n jar files.
         Use prefix pattern instead of listing each language. (kkolinko)
       </update>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
