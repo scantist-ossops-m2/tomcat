@@ -84,6 +84,9 @@
         <code>JarEntry</code> objects normally skipped by a
         <code>JarInputStream</code> only if those entries exist. (markt)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
