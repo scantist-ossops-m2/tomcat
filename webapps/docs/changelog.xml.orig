@@ -185,10 +185,6 @@
         Re-tagged to ensure that the source file for the changelog did not
         contain an XML byte order mark. (markt)
       </fix>
-      <fix>
-        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
-        clients. (markt)
-      </fix>
     </changelog>
   </subsection>
 </section>
