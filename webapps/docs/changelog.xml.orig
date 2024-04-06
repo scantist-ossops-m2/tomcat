@@ -87,6 +87,9 @@
         <bug>62006</bug>: Document the new <code>JvmOptions9</code> command line
         parameter for <code>tomcat9.exe</code>. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
