@@ -236,6 +236,10 @@
         start rather than at servlet load time to ensure constraints are applied
         consistently. (markt)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
