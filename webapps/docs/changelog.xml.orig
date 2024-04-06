@@ -152,6 +152,9 @@
         by <code>WebappClassLoaderBase.getResources(String)</code> according to
         the setting of the delegate flag. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
