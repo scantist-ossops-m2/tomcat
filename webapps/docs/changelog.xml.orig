@@ -156,9 +156,6 @@
         <bug>61999</bug>: maxSavePostSize set to 0 should disable saving POST
         data during authentication. (remm)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
