@@ -118,6 +118,9 @@
         <bug>63246</bug>: Fix a potential <code>NullPointerException</code> when
         calling <code>AsyncContext.dispatch()</code>. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
