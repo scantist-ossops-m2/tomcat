@@ -120,9 +120,6 @@
       <fix>
         <bug>60513</bug>: Fix thread safety issue with RMI cleanup code. (remm)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Catalina">
