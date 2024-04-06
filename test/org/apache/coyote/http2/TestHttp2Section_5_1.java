@@ -147,21 +147,44 @@ public class TestHttp2Section_5_1 extends Http2TestBase {
 
     @Test
     public void testImplicitClose() throws Exception {
+        doTestImplicitClose(5);
+    }
+
+
+    // https://bz.apache.org/bugzilla/show_bug.cgi?id=64467
+    @Test
+    public void testImplicitCloseLargeId() throws Exception {
+        doTestImplicitClose(Integer.MAX_VALUE - 8);
+    }
+
+
+    private void doTestImplicitClose(int lastStreamId) throws Exception {
+
+        long startFirst = System.nanoTime();
         http2Connect();
+        long durationFirst = System.nanoTime() - startFirst;
 
         sendPriority(3, 0, 16);
-        sendPriority(5, 0, 16);
+        sendPriority(lastStreamId, 0, 16);
 
-        sendSimpleGetRequest(5);
+        long startSecond = System.nanoTime();
+        sendSimpleGetRequest(lastStreamId);
         readSimpleGetResponse();
-        Assert.assertEquals(getSimpleResponseTrace(5), output.getTrace());
+        long durationSecond = System.nanoTime() - startSecond;
+
+        Assert.assertEquals(getSimpleResponseTrace(lastStreamId), output.getTrace());
         output.clearTrace();
+
+        // Allow second request to take up to 5 times first request or up to 1 second - whichever is the larger - mainly
+        // to allow for CI systems under load that can exhibit significant timing variation.
+        Assert.assertTrue("First request took [" + durationFirst/1000000 + "ms], second request took [" +
+                durationSecond/1000000 + "ms]", durationSecond < 1000000000 || durationSecond < durationFirst * 3);
 
         // Should trigger an error since stream 3 should have been implicitly
         // closed.
         sendSimpleGetRequest(3);
 
-        handleGoAwayResponse(5);
+        handleGoAwayResponse(lastStreamId);
     }
 
 
@@ -199,11 +222,11 @@ public class TestHttp2Section_5_1 extends Http2TestBase {
         // Expecting
         // 1 * headers
         // 56k-1 of body (7 * ~8k)
-        // 1 * error (could be in any order)
-        for (int i = 0; i < 8; i++) {
+        // 1 * error
+        // for a total of 9 frames (could be in any order)
+        for (int i = 0; i < 9; i++) {
             parser.readFrame(true);
         }
-        parser.readFrame(true);
 
         Assert.assertTrue(output.getTrace(),
                 output.getTrace().contains("5-RST-[" +
@@ -215,14 +238,20 @@ public class TestHttp2Section_5_1 extends Http2TestBase {
 
         // Release the remaining body
         sendWindowUpdate(0, (1 << 31) - 2);
-        // Allow for the 8k still in the stream window
+        // Allow for the ~8k still in the stream window
         sendWindowUpdate(3, (1 << 31) - 8193);
 
-        // 192k of body (24 * 8k)
-        // 1 * error (could be in any order)
-        for (int i = 0; i < 24; i++) {
+        // Read until the end of stream 3
+        while (!output.getTrace().contains("3-EndOfStream")) {
             parser.readFrame(true);
         }
+        output.clearTrace();
+
+        // Confirm another request can be sent once concurrency falls back below limit
+        sendSimpleGetRequest(7);
+        parser.readFrame(true);
+        parser.readFrame(true);
+        Assert.assertEquals(getSimpleResponseTrace(7), output.getTrace());
     }
 
 
