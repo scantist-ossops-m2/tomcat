@@ -96,6 +96,10 @@
         <bug>64485</bug>: Fix possible resource leak geting last modified from
         <code>ConfigurationSource.Resource</code>. (remm)
       </fix>
+      <add>
+        <bug>64871</bug>: Log a warning if Tomcat blocks access to a file
+        because it uses symlinks. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Jasper">
