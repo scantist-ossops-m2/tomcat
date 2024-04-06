@@ -218,6 +218,10 @@
         Fix timeout logic for async non blocking writes. Identified by
         Coverity Scan. (remm)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
