@@ -131,6 +131,9 @@
         PKCS12 keystores as regressions have been reported with some other
         keystore types. (markt)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
