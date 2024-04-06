@@ -93,6 +93,9 @@
         Improve handing of overflow in the UTF-8 decoder with supplementary
         characters. (markt)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
