@@ -98,9 +98,6 @@
         Improve handing of overflow in the UTF-8 decoder with supplementary
         characters. (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
