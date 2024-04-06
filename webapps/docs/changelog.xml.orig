@@ -107,6 +107,9 @@
       <fix>
         <bug>60508</bug>: Set request start time for HTTP/2. (remm)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
