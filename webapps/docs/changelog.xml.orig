@@ -165,9 +165,6 @@
         Allow async requests to complete cleanly when the Connector is paused
         before <code>complete()</code> is called on a container thread. (markt)
       </fix>
-      <add>
-        Improve validation of storage location when using FileStore. (markt)
-      </add>
     </changelog>
   </subsection>
   <subsection name="Jasper">
