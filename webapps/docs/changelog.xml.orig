@@ -110,10 +110,6 @@
         Language API is able to load classes from the Java runtime when running
         under a SecurityManager. Based on a patch by Volodymyr Siedleck. (markt)
       </fix>
-      <fix>
-        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
-        connection to h2c is made. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
