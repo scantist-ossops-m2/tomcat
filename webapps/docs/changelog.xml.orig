@@ -52,9 +52,6 @@
         <code>Expires</code> header as required by HTTP specification
         (RFC 7231, 7234). (kkolinko)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
 </section>
