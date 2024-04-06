@@ -155,6 +155,9 @@
       <fix>
         Encode the output of the SSI <code>printenv</code> command. (markt)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
