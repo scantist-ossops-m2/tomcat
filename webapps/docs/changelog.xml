@@ -125,6 +125,9 @@
         <code>accept-encoding</code> header to determine if gzip encoding is
         supported including only parsing the first header found. (markt)
       </fix>
+      <add>
+        Improve validation of storage location when using FileStore. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Jasper">
