@@ -132,9 +132,6 @@
         establishing a WebSocket connection via a proxy. Patch provided by
         Svetlin Zarev. (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Tribes">
