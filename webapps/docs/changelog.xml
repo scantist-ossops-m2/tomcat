@@ -181,6 +181,10 @@
         Expand HTTP/2 timeout handling to include connection window exhaustion
         on write. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
