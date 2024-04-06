@@ -201,6 +201,9 @@
         pick up the latest Windows binaries built with APR 1.6.5 and OpenSSL
         1.1.1. (markt)
       </update>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
 </section>

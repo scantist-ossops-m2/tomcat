@@ -131,6 +131,9 @@
         implementation that prevented from secure WebSocket connections from
         being established. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
