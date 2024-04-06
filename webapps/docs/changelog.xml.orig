@@ -83,9 +83,6 @@
         When running on Java 9 and above, don't attempt to instantiate WebSocket
         Endpoints found in modules that are not exported. (markt)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Web Applications">
