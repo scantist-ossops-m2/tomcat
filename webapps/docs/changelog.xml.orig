@@ -155,9 +155,6 @@
         Correct a typo in CGI How-To.
         Issue reported via comments.apache.org. (violetagg)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Tribes">
