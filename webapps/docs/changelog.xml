@@ -315,6 +315,10 @@
       <update>
         Update dependency on bnd to 5.1.0. (markt)
       </update>
+      <scode>
+        Use <code>java.nio.file.Path</code> to test for one directory being a
+        sub-directory of another in a consistent way. (markt)
+      </scode>
     </changelog>
   </subsection>
 </section>
