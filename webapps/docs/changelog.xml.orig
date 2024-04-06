@@ -81,6 +81,9 @@
         files intended for display in GitHub from RAT analysis. Patch provided
         by Chris Thistlethwaite. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
