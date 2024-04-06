@@ -157,6 +157,9 @@
         of the CGI servlet from <code>true</code> to <code>false</code> as
         additional hardening against CVE-2019-0232. (markt)
       </update>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
