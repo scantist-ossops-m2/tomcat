@@ -171,9 +171,6 @@
         Fix a crash on shutdown with the APR/native connector when a blocking
         I/O operation was still in progress when the connector stopped. (markt)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
