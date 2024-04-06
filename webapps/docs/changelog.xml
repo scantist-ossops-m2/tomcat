@@ -233,6 +233,10 @@
         Correct the description of how the CGI servlet maps a request to a
         script in the CGI How-To. (markt)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Tribes">
