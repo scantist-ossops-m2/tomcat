@@ -3027,10 +3027,6 @@
         contains multiple <code>Host</code> headers is rejected with a 400
         response. (markt)
       </fix>
-      <fix>
-        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
-        clients. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
