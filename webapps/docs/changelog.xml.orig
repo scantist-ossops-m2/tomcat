@@ -100,9 +100,6 @@
         start rather than at servlet load time to ensure constraints are applied
         consistently. (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
