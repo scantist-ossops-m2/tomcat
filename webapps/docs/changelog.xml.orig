@@ -63,9 +63,6 @@
         that the HTTP port specified when using the Windows Installer was
         ignored and 8080 was always used. (markt)
       </fix>
-      <add>
-        Improve validation of storage location when using FileStore. (markt)
-      </add>
     </changelog>
   </subsection>
 </section>
