@@ -70,6 +70,9 @@
       <fix>
         Remove unnecessary shutdown for executor. (kfujino)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
