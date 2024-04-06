@@ -118,9 +118,6 @@
         Add a <code>.gitattributes</code> file to make sure that Git
         handles test data files for bug <bug>52121</bug> as binary. (kkolinko)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
 </section>
