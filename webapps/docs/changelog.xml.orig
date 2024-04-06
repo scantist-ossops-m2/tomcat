@@ -138,9 +138,6 @@
         works when the session cookie configuration is not explicitly declared.
         Based on a patch provided by Andreas Kurth. (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
