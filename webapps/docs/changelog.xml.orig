@@ -145,6 +145,10 @@
         system property changing how the sequence <code>%5c</code> is
         interpretted in a URI. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
