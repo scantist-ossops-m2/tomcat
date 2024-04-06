@@ -80,6 +80,9 @@
         <bug>60911</bug>: Ensure NPE will not be thrown when looking for SSL
         session ID. Based on a patch by Didier Gutacker. (violetagg)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
