@@ -111,6 +111,9 @@
         compilation caused by the fix for <bug>53492</bug>. Patch provided by
         Bernhard Frauendienst. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
