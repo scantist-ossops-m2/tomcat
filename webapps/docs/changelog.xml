@@ -113,6 +113,10 @@
         <code>DefaultServlet</code> if the encoding of a static is not
         consistent with the encoding of the response. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
