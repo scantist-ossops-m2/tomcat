@@ -76,9 +76,6 @@
         Ensure that text files in the source distribution have the correct line
         endings for the target platform. (markt)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
 </section>
