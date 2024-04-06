@@ -125,9 +125,6 @@
         Prevent exceptions being thrown during normal shutdown of NIO
         connections. This enables TLS connections to close cleanly. (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
