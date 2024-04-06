@@ -268,10 +268,6 @@
         not store keys in PKCS #8 format such as hardware key stores and Windows
         key stores. (markt)
       </fix>
-      <fix>
-        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
-        clients. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
