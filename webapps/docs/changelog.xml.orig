@@ -161,6 +161,9 @@
         Ensure request and response facades are used when firing application
         listeners. (markt/remm)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
