@@ -63,6 +63,10 @@
         that the HTTP port specified when using the Windows Installer was
         ignored and 8080 was always used. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
