@@ -143,6 +143,9 @@
         could be missing in the access log for an HTTP/2 request where the
         connection was closed unexpectely. (markt)
       </fix>
+      <add>
+        Improve validation of storage location when using FileStore. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Coyote">
