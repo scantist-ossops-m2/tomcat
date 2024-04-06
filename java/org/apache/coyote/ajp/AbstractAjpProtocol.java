@@ -17,6 +17,7 @@
 package org.apache.coyote.ajp;
 
 import java.net.InetAddress;
+import java.util.regex.Pattern;
 
 import org.apache.coyote.AbstractProtocol;
 import org.apache.coyote.Processor;
@@ -143,6 +144,18 @@ public abstract class AbstractAjpProtocol<S> extends AbstractProtocol<S> {
     private String requiredSecret = null;
     public void setRequiredSecret(String requiredSecret) {
         this.requiredSecret = requiredSecret;
+    }
+
+
+    private Pattern allowedArbitraryRequestAttributesPattern;
+    public void setAllowedArbitraryRequestAttributes(String allowedArbitraryRequestAttributes) {
+        this.allowedArbitraryRequestAttributesPattern = Pattern.compile(allowedArbitraryRequestAttributes);
+    }
+    public String getAllowedArbitraryRequestAttributes() {
+        return allowedArbitraryRequestAttributesPattern.pattern();
+    }
+    protected Pattern getAllowedArbitraryRequestAttributesPattern() {
+        return allowedArbitraryRequestAttributesPattern;
     }
 
 
