@@ -358,6 +358,10 @@
         pick up the latest Windows binaries built with APR 1.6.2 and OpenSSL
         1.0.2l. (markt)
       </update>
+      <fix>
+        <bug>64467</bug>: Improve performance of closing idle HTTP/2 streams.
+        (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
