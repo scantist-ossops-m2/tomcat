@@ -95,10 +95,6 @@
         Update fix for <bug>59904</bug> so that values less than zero are accepted
         instead of throwing a NegativeArraySizeException. (remm)
       </fix>
-      <fix>
-        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
-        connection to h2c is made. (markt)
-      </fix>
     </changelog>
   </subsection>
 </section>
