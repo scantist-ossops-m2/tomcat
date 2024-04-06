@@ -113,6 +113,9 @@
         the new Connector attribute <code>noCompressionStrongETag</code>.
         (markt)
       </fix>
+      <add>
+        Improve validation of storage location when using FileStore. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
