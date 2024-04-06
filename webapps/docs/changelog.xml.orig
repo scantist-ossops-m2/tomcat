@@ -167,6 +167,10 @@
   <subsection name="Web applications">
     <changelog>
       <fix>
+        Additional fix for <bug>64830</bug> to address an edge case that could
+        trigger request corruption with h2c connections. (markt)
+      </fix>
+      <fix>
         Correct a regression in the addition of the HTTP header security filter
         to the examples web application that prevented the Servlet examples that
         depend on the asynchronous API from functioning correctly.
