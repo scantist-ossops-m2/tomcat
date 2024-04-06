@@ -101,9 +101,6 @@
         credentials trigger account lock out when the <code>LockOutRealm</code>
         is in use. Patch provided by jchobantonov. (markt)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
