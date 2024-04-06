@@ -181,6 +181,10 @@
         Allow async requests to complete cleanly when the Connector is paused
         before <code>complete()</code> is called on a container thread. (markt)
       </fix>
+      <fix>
+        Make handling of OpenSSL read errors more robust when plain text data is
+        reported to be available to read. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Cluster">
