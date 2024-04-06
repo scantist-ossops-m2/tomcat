@@ -155,6 +155,9 @@
         prevented error pages from issuing redirects or taking other action that
         required the response status code to be changed. (markt)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
