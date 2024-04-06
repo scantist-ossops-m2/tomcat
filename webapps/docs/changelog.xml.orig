@@ -121,6 +121,9 @@
         Add <code>--no-jmx</code> flag to allow disabling JMX in
         <code>startup.Tomcat.main</code>. (remm)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
