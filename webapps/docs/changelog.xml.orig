@@ -84,6 +84,10 @@
         <code>mbeans-descriptors.xml</code> files to avoid issues when XML
         entity expansion is limited or disabled. (markt)
       </fix>
+      <add>
+        <bug>64871</bug>: Log a warning if Tomcat blocks access to a file
+        because it uses symlinks. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Coyote">
