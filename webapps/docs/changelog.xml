@@ -124,6 +124,9 @@
       <fix>
        Refactor JMX remote RMI registry creation. (remm)
       </fix>
+      <add>
+        Improve validation of storage location when using FileStore. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Coyote">
