@@ -213,6 +213,10 @@
         <bug>62918</bug>: Filter out subtype mbeans to avoid breaking the
         connector status page. (remm)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Tribes">
