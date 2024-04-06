@@ -222,6 +222,9 @@
         Do not add CSRF nonce parameter and suppress Referer header for external
         links in Manager and Host Manager web applications. (kkolinko)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
