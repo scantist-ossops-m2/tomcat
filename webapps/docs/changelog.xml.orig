@@ -103,6 +103,9 @@
         <code>accept-encoding</code> header to determine if gzip encoding is
         supported including only parsing the first header found. (markt)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
