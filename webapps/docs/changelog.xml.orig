@@ -149,10 +149,6 @@
   <subsection name="Jasper">
     <changelog>
       <fix>
-        Additional fix for <bug>64830</bug> to address an edge case that could
-        trigger request corruption with h2c connections. (markt)
-      </fix>
-      <fix>
         <bug>64784</bug>: Don't include the time the Java file was generated as
         a comment when generating Java files for JSPs and/or tags if the Java
         file was created during pre-compilation. This is to aid repeatable
