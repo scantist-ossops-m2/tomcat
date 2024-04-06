@@ -107,6 +107,10 @@
         <code>ServerAuthModule</code> when decideing whether or nor to register
         the session. Based on a patch by Robert Rodewald. (markt)
       </fix>
+      <add>
+        <bug>64871</bug>: Log a warning if Tomcat blocks access to a file
+        because it uses symlinks. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Coyote">
