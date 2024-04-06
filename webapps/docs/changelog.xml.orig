@@ -466,10 +466,6 @@
         Improve validation of request lines, including for HTTP/0.9 requests.
         (markt)
       </fix>
-      <add>
-        <bug>64871</bug>: Log a warning if Tomcat blocks access to a file
-        because it uses symlinks. (markt)
-      </add>
     </changelog>
   </subsection>
 </section>
