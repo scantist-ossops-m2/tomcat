@@ -111,9 +111,6 @@
         used when building the web application class path. Patch provided by
         Marcin Gołębski. (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
