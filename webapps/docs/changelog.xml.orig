@@ -84,9 +84,6 @@
         <code>PooledConnection</code> interface when using pooled XA
         connections. Patch provided by Nils Winkler. (markt)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
