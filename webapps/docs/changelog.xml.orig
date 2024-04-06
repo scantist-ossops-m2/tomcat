@@ -132,6 +132,9 @@
         replacement in configuration files. Based on a pull request provided by
         Bernd Bohmann. (markt)
       </fix>
+      <add>
+        Improve validation of storage location when using FileStore. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Coyote">
