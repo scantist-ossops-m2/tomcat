@@ -231,6 +231,10 @@
         <bug>64043</bug>: Ensure that session ID changes are replicated during
         form-authentication. (kfujino)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
