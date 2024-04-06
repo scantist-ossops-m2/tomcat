@@ -159,6 +159,10 @@
   <subsection name="Catalina">
     <changelog>
       <fix>
+        Additional fix for <bug>64830</bug> to address an edge case that could
+        trigger request corruption with h2c connections. (markt)
+      </fix>
+      <fix>
         Fix race condition when saving and recycling session in
         <code>PersistentValve</code>. (kfujino)
       </fix>
