@@ -119,6 +119,9 @@
         fragments with duplicate names and is configured to use relative
         ordering of fragments. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
