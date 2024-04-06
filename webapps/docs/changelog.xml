@@ -1081,6 +1081,10 @@
         test suite to replace the keys and certificates that are about to
         expire. (markt)
       </update>
+      <scode>
+        Use <code>java.nio.file.Path</code> to test for one directory being a
+        sub-directory of another in a consistent way. (markt)
+      </scode>
     </changelog>
   </subsection>
 </section>
