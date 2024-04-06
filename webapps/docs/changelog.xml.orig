@@ -180,6 +180,9 @@
         threads processing the stream concurrently which in turn could cause
         errors processing the stream. (markt)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Cluster">
