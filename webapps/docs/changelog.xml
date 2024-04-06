@@ -162,6 +162,10 @@
         HTTP/2 connection is closed while the parser still has a partial HTTP/2
         frame in the input buffer. (markt)
       </fix>
+      <fix>
+        Make handling of OpenSSL read errors more robust when plain text data is
+        reported to be available to read. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
