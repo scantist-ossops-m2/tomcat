@@ -276,6 +276,11 @@
         Improvements to Japanese translations. Contributed by Shirayuking and
         tak7iji. (markt)
       </add>
+      <fix>
+        <bug>66471</bug>: Fix JSessionId secure attribute missing When
+        <code>RemoteIpFilter</code> determines that this request was submitted
+        via a secure channel. (lihan)
+      </fix>
     </changelog>
   </subsection>
 </section>
