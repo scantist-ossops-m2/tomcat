@@ -138,6 +138,9 @@
       <add>
         Improve validation of storage location when using FileStore. (markt)
       </add>
+      <fix>
+        <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
