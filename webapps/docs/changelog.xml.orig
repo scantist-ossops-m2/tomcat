@@ -66,10 +66,6 @@
         Prevent a NPE when destroying HTTP upgrade handler for WebSocket
         connections. (violetagg)
       </fix>
-      <fix>
-        <bug>57544</bug>: Fix potential infinite loop when preparing a kept
-        alive HTTP connection for the next request. (markt)
-      </fix>
     </changelog>
   </subsection>
 </section>
