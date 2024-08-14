@@ -104,6 +104,10 @@
       <fix>
         <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
       </fix>
+      <fix>
+        Examples. Fix CVE-2022-34305, a low severity XSS vulnerability in the
+        Form authentication example. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
