@@ -94,10 +94,6 @@
         Allow 204 responses (no content) to include entity headers as required
         by RFC2616. (markt)
       </fix>
-      <fix>
-        <bug>57544</bug>: Fix potential infinite loop when preparing a kept
-        alive HTTP connection for the next request. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
