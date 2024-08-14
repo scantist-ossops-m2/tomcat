@@ -143,6 +143,10 @@
         could be missing in the access log for an HTTP/2 request where the
         connection was closed unexpectely. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
