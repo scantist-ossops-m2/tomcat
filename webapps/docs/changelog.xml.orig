@@ -113,9 +113,6 @@
         Ensure that the HTTP/1.1 processor is correctly recycled when a direct
         connection to h2c is made. (markt)
       </fix>
-      <fix>
-        Avoid protocol relative redirects in FORM authentication. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Web Applications">
