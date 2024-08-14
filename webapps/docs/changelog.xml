@@ -134,6 +134,9 @@
         <bug>57099</bug>: Ensure that semi-colons are not permitted in JSP
         import page directives. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Cluster">
