@@ -102,6 +102,10 @@
         When running on Java 9 and above, don't attempt to instantiate WebSocket
         Endpoints found in modules that are not exported. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web Applications">
