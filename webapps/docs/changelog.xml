@@ -73,6 +73,10 @@
         Fix a memory leak introduced by the HTTP/2 timeout refactoring in 9.0.23
         that could occur when HTTP/2 or WebSocket was used. (markt)
       </fix>
+      <add>
+        <bug>64871</bug>: Log a warning if Tomcat blocks access to a file
+        because it uses symlinks. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Jasper">
