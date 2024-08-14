@@ -162,9 +162,6 @@
         <code>org.apache.tomcat.util.net.AprEndpoint.certificate</code>) for
         logging of configured TLS certificates. (markt)
       </add>
-      <fix>
-        Avoid protocol relative redirects in FORM authentication. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
