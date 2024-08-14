@@ -136,10 +136,6 @@
         <bug>53031</bug>: Add support for the <code>fork</code> option when
         compiling JSPs with the Jasper Ant task and javac. (markt)
       </add>
-      <fix>
-        <bug>64563</bug>: Add additional validation of payload length for
-        WebSocket messages. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
