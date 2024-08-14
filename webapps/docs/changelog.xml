@@ -76,6 +76,10 @@
         Ensure that text files in the source distribution have the correct line
         endings for the target platform. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
