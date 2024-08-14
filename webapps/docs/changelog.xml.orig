@@ -165,6 +165,9 @@
         new initialisation parameter <code>cmdLineArgumentsDecoded</code>. This
         is the fix for CVE-2019-0232. (markt)
       </add>
+      <fix>
+        <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
