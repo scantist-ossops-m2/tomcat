@@ -194,12 +194,6 @@
         Narrow the scope of the logging of invalid cookie headers to just the
         invalid cookie rather than the whole cookie header. (markt)
       </fix>
-      <fix>
-        Update the documentation web application to state that the
-        <code>EncryptInterceptor</code> does not provide sufficient protection
-        to run Tomcat clustering over an untrusted network. This is
-        CVE-2022-29885. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
