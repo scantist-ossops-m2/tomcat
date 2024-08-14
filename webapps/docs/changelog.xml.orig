@@ -184,6 +184,12 @@
         The internal upgrade handler should close the associated
         <code>WebConnection</code> on destroy. (remm)
       </fix>
+      <fix>
+        Update the documentation web application to state that the
+        <code>EncryptInterceptor</code> does not provide sufficient protection
+        to run Tomcat clustering over an untrusted network. This is
+        CVE-2022-29885. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
