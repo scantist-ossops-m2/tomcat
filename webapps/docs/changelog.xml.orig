@@ -168,6 +168,12 @@
         an error during an asynchronous read broke all future asynchronous reads
         associated with the same request instance. (markt)
       </fix>
+      <fix>
+        Update the documentation web application to state that the
+        <code>EncryptInterceptor</code> does not provide sufficient protection
+        to run Tomcat clustering over an untrusted network. This is
+        CVE-2022-29885. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
