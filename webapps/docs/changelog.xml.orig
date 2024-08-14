@@ -223,10 +223,6 @@
         the <code>channelSendOptions</code> that has been set rather than the
         default <code>channelSendOptions</code>. (kfujino)
       </fix>
-      <fix>
-        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
-        clients. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
