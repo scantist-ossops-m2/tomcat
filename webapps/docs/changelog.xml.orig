@@ -61,10 +61,6 @@
         Improve shut down speed by not renewing threads during shut down when
         the <code>ThreadLocalLeakPreventionListener</code> is enabled. (markt)  
       </fix>
-      <fix>
-        <bug>57544</bug>: Fix potential infinite loop when preparing a kept
-        alive HTTP connection for the next request. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
