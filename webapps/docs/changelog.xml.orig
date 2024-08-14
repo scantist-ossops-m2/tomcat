@@ -129,9 +129,6 @@
         <bug>54888</bug>: Add support for CSV lists with the ForEach tag plugin.
         Patch provided by Sheldon Shao. (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Cluster">
