@@ -130,6 +130,10 @@
         Add additional checks for valid characters to the HTTP request line
         parsing so invalid request lines are rejected sooner. (markt)
       </add>
+      <fix>
+        <bug>64563</bug>: Add additional validation of payload length for
+        WebSocket messages. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
