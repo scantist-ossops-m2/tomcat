@@ -195,6 +195,9 @@
         <code>Lifecycle.isAvailable()</code> and correct a couple of cases where
         this could incorrectly return true. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
