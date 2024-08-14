@@ -111,9 +111,6 @@
         Fix a bug that memory allocation is larger than limit in
         <code>SynchronizedStack</code> to reduce memory footprint. (lihan)
       </fix>
-      <fix>
-        Avoid protocol relative redirects in FORM authentication. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Catalina">
