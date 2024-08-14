@@ -219,6 +219,10 @@
         request, reset the stream to inform the client that the remaining
         request body is not required. (markt)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
