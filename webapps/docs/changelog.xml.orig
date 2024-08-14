@@ -174,6 +174,10 @@
         to run Tomcat clustering over an untrusted network. This is
         CVE-2022-29885. (markt)
       </fix>
+      <fix>
+        Examples. Fix CVE-2022-34305, a low severity XSS vulnerability in the
+        Form authentication example. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
