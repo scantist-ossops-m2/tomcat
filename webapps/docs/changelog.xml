@@ -142,6 +142,11 @@
         <bug>64944</bug>: Ensure that the bytesSent metric is correctly updated
         when compression is enabled. (markt)
       </fix>
+      <fix>
+        <bug>65203</bug>: Fix a regression introduced in 9.0.44 that meant that
+        an error during an asynchronous read broke all future asynchronous reads
+        associated with the same request instance. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
