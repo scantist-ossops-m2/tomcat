@@ -104,9 +104,6 @@
         incorrectly identifying EL expressions in jsp:param element values as a
         literal string. (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Cluster">
