@@ -111,6 +111,9 @@
         Correct a regression in the fix for <bug>65785</bug> that broke HTTP/2
         server push. (markt)
       </fix>
+      <fix>
+        Avoid protocol relative redirects in FORM authentication. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
