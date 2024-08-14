@@ -130,6 +130,9 @@
         <bug>51230</bug>: Add missing attributes to JMX for ReplicationValve and
         JvmRouteBinderValve. Patch provided by Eiji Takahashi. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
