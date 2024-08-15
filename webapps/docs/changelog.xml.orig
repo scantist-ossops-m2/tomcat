@@ -236,10 +236,6 @@
         Fix race condition of <code>responseMap</code> in
         <code>RpcChannel</code>. (kfujino)
       </fix>
-      <fix>
-        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
-        clients. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="jdbc-pool">
