@@ -151,9 +151,6 @@
         default value to <code>false</code> as support for the associated HTTP
         header has been removed from all major browsers. (markt)
       </fix>
-      <fix>
-        Avoid protocol relative redirects in FORM authentication. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
