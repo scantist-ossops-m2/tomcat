@@ -161,6 +161,10 @@
         Ensure request and response facades are used when firing application
         listeners. (markt/remm)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
