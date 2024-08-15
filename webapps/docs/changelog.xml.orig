@@ -110,6 +110,9 @@
         statement proxy is set. This behavior can be changed with
         <code>useStatementFacade</code> attribute. (kfujino)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
