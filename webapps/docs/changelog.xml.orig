@@ -479,6 +479,10 @@
         Make WebSocket client more robust when handling errors during the close
         of a WebSocket session. (markt)
       </add>
+      <fix>
+        <bug>64563</bug>: Add additional validation of payload length for
+        WebSocket messages. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
