@@ -102,6 +102,9 @@
         Windows installer from a configuration file. Patch provided by Sandra
         Madden. (markt)
       </add>
+      <fix>
+        <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
