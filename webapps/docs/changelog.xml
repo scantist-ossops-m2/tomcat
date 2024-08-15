@@ -165,6 +165,11 @@
         Ensure that the HTTP/1.1 processor is correctly recycled when a direct
         connection to h2c is made. (markt)
       </fix>
+      <fix>
+        <bug>65203</bug>: Fix a regression introduced in 8.5.64 that meant that
+        an error during an asynchronous read broke all future asynchronous reads
+        associated with the same request instance. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
