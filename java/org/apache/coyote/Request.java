@@ -600,6 +600,8 @@ public final class Request {
 
         errorException = null;
 
+        errorException = null;
+
         listener = null;
         allDataReadEventSent.set(false);
 
