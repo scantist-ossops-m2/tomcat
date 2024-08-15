@@ -145,10 +145,6 @@
         <bug>52671</bug>: When dumping MBean data, skip attributes where getters
         throw <code>NullPointerException</code>. (markt)
       </fix>
-      <fix>
-        <bug>57544</bug>: Fix potential infinite loop when preparing a kept
-        alive HTTP connection for the next request. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
