@@ -215,10 +215,6 @@
         Ensure that annotated web components packed in web fragments will be
         processed when <code>unpackWARs</code> is enabled. (violetagg)
       </fix>
-      <fix>
-        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
-        clients. (markt)
-      </fix>
     </changelog>
   </subsection>
 </section>
