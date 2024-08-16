@@ -136,6 +136,9 @@
         <code>ServletContext</code> attribute named
         <code>org.apache.catalina.webappVersion</code>. (markt)
       </add>
+      <fix>
+        <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
