@@ -96,10 +96,6 @@
       <add>
         Enable the unit tests to execute in parallel. (markt)
       </add>
-      <fix>
-        <bug>64563</bug>: Add additional validation of payload length for
-        WebSocket messages. (markt)
-      </fix>
     </changelog>
   </subsection>
 </section>
