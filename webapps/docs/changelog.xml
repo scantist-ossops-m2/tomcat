@@ -213,6 +213,10 @@
         Do not add CSRF nonce parameter and suppress Referer header for external
         links in Manager and Host Manager web applications. (kkolinko)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Tribes">
