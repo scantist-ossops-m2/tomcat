@@ -188,6 +188,10 @@
       <add>
         Add JMX support for Tribes components. (kfujino)
       </add>
+      <fix>
+        <bug>64563</bug>: Add additional validation of payload length for
+        WebSocket messages. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">

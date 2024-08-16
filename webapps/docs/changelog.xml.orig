@@ -138,6 +138,9 @@
         <code>AsyncListener</code>s after an I/O error on a non-container
         thread. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
