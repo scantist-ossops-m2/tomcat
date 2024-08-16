@@ -98,6 +98,9 @@
         whether the <code>docBase</code> is located within the
         <code>appBase</code> etc. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
