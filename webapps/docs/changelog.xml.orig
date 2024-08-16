@@ -168,6 +168,14 @@
       </fix>
     </changelog>
   </subsection>
+  <subsection name="WebSocket">
+    <changelog>
+      <fix>
+        The internal upgrade handler should close the associated
+        <code>WebConnection</code> on destroy. (remm)
+      </fix>
+    </changelog>
+  </subsection>
   <subsection name="Web applications">
     <changelog>
       <fix>
@@ -403,6 +411,11 @@
       <fix>
         Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
         clients. (markt)
+      </fix>
+      <fix>
+        Ensure that if the transfer encoding header contains the
+        <code>chunked</code>, that the <code>chunked</code> encoding is the
+        final encoding listed. (markt)
       </fix>
     </changelog>
   </subsection>
