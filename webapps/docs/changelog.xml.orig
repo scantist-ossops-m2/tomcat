@@ -156,6 +156,9 @@
         support. Also include a new documentation page describing how
         to use it. (remm)
       </add>
+      <fix>
+        <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
