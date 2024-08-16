@@ -134,9 +134,6 @@
         file lockig protection or the manager servlet. Submitted
         by Jack Shirazi. (remm)
       </fix>
-      <fix>
-        Avoid protocol relative redirects in FORM authentication. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
