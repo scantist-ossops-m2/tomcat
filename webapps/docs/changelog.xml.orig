@@ -232,10 +232,6 @@
         Implement checksum checks when downloading dependencies that are used
         to build Tomcat. (kkolinko)
       </add>
-      <fix>
-        <bug>64563</bug>: Add additional validation of payload length for
-        WebSocket messages. (markt)
-      </fix>
     </changelog>
   </subsection>
 </section>
