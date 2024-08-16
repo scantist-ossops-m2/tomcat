@@ -82,6 +82,10 @@
         Calling <code>stop()</code> and then <code>destroy()</code> on a
         connector in correctly triggered an exception. (markt)
       </fix>
+      <fix>
+        <bug>57544</bug>: Fix potential infinite loop when preparing a kept
+        alive HTTP connection for the next request. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">

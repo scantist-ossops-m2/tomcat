@@ -137,6 +137,9 @@
         Improve shut down speed by not renewing threads during shut down when
         the <code>ThreadLocalLeakPreventionListener</code> is enabled. (markt)  
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
