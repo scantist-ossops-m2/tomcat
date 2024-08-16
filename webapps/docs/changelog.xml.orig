@@ -141,6 +141,10 @@
         dispatch operation for the same asynchronous cycle will be ignored and
         <code>IllegalStateException</code> will be thrown. (violetagg)
       </fix>
+      <fix>
+        <bug>57544</bug>: Fix potential infinite loop when preparing a kept
+        alive HTTP connection for the next request. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
