@@ -108,6 +108,10 @@
         org.apache.catalina.comet package to allow comet to work under a
         security manager. (markt)
       </fix>
+      <fix>
+        <bug>57544</bug>: Fix potential infinite loop when preparing a kept
+        alive HTTP connection for the next request. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
