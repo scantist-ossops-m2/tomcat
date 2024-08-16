@@ -381,6 +381,10 @@
         Update the build script so MD5 hashes are no longer generated for
         releases as per the change in the ASF distribution policy. (markt)
       </update>
+      <fix>
+        <bug>64467</bug>: Improve performance of closing idle HTTP/2 streams.
+        (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
