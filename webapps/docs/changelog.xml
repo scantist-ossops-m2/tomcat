@@ -65,6 +65,10 @@
         <code>test.exclude</code> and document the property in
         BUILDING.txt. (rjung)
       </add>
+      <fix>
+        <bug>64563</bug>: Add additional validation of payload length for
+        WebSocket messages. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Catalina">
