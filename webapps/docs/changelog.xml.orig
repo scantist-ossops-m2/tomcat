@@ -355,6 +355,10 @@
         a warning will be logged and the default will used.
         (markt)
       </add>
+      <fix>
+        Improve the recycling of Processor objects to make it more robust.
+        (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
