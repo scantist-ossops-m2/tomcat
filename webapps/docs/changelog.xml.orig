@@ -158,6 +158,10 @@
         an error during an asynchronous read broke all future asynchronous reads
         associated with the same request instance. (markt)
       </fix>
+      <fix>
+        Examples. Fix CVE-2022-34305, a low severity XSS vulnerability in the
+        Form authentication example. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
