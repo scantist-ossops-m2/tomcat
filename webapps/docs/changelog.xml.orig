@@ -135,6 +135,9 @@
         <code>RemoteIpValve</code> processes a request for which no Context can
         be found. (markt)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
