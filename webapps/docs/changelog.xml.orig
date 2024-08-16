@@ -84,11 +84,6 @@
         Correct a regression that prevented a default Tomcat 7 install from
         starting on Java 6. (markt)
       </fix>
-      <fix>
-        Rename the HTTP Connector attribute <code>rejectIllegalHeaderName</code>
-        to <code>rejectIllegalHeader</code> and expand the underlying
-        implementation to include header values as well as names. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
