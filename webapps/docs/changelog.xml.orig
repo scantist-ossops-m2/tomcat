@@ -164,10 +164,6 @@
         Document how the roles for an authenticated user are determined when the
         <code>CombinedRealm</code> is used. (markt)
       </add>
-      <fix>
-        <bug>64563</bug>: Add additional validation of payload length for
-        WebSocket messages. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="jdbc-pool">
