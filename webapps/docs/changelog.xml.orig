@@ -76,10 +76,6 @@
         bundled in zip/tar.gz files. The differences are LockOutRealm being
         used and AccessLogValve being enabled by default. (kkolinko)
       </fix>
-      <fix>
-        <bug>57544</bug>: Fix potential infinite loop when preparing a kept
-        alive HTTP connection for the next request. (markt)
-      </fix>
     </changelog>
   </subsection>
 </section>
