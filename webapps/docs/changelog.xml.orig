@@ -220,6 +220,12 @@
         <code>KubernetesMembershipProvider</code> so that the missing attribute
         is clear to the user. PR provided by Hal Deadman. (markt)
       </fix>
+      <fix>
+        Update the documentation web application to state that the
+        <code>EncryptInterceptor</code> does not provide sufficient protection
+        to run Tomcat clustering over an untrusted network. This is
+        CVE-2022-29885. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
