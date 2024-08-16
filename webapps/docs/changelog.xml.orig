@@ -117,9 +117,6 @@
         an error during an asynchronous read broke all future asynchronous reads
         associated with the same request instance. (markt)
       </fix>
-      <fix>
-        Avoid protocol relative redirects in FORM authentication. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
