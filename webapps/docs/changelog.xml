@@ -211,6 +211,10 @@
         <bug>60911</bug>: Ensure NPE will not be thrown when looking for SSL
         session ID. Based on a patch by Didier Gutacker. (violetagg)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
