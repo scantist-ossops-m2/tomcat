@@ -170,9 +170,6 @@
         functions as designed and sessions are swapped out to keep the active
         session count below <code>maxActiveSessions</code>. (markt)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
