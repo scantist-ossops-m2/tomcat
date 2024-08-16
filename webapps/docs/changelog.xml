@@ -132,6 +132,10 @@
         Ensure that the HTTP/1.1 processor is correctly recycled when a direct
         connection to h2c is made. (markt)
       </fix>
+      <fix>
+        Examples. Fix CVE-2022-34305, a low severity XSS vulnerability in the
+        Form authentication example. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
