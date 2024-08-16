@@ -154,6 +154,10 @@
         Improve validation of the <code>Destination</code> header for WebDAV
         <code>MOVE</code> and <code>COPY</code> requests. (markt)
       </fix>
+      <fix>
+        Examples. Fix CVE-2022-34305, a low severity XSS vulnerability in the
+        Form authentication example. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
