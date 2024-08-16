@@ -163,6 +163,9 @@
         Improve HTTP specification compliance in support of
         <code>Accept-Language</code> header. (kkolinko)
       </fix>
+      <fix>
+        Encode the output of the SSI <code>printenv</code> command. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
