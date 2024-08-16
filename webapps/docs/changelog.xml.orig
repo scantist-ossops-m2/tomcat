@@ -112,9 +112,6 @@
         Fix potential NPE in <code>AbstractReplicatedMap.breakdown()</code>.
         (kfujino)
       </fix>
-      <fix>
-        Encode the output of the SSI <code>printenv</code> command. (markt)
-      </fix>
     </changelog>
   </subsection>
 </section>
