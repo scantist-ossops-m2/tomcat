@@ -83,6 +83,10 @@
         Don&apos;t exclude directories named target from the build process.
         (rjung)
       </fix>
+      <fix>
+        <bug>57544</bug>: Fix potential infinite loop when preparing a kept
+        alive HTTP connection for the next request. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
