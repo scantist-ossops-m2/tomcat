@@ -137,9 +137,6 @@
         <code>JsonErrorReportValve</code> to ensure that it always outputs valid
         JSON. (markt)
       </fix>
-      <fix>
-        Avoid protocol relative redirects in FORM authentication. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
