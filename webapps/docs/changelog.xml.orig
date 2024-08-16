@@ -230,10 +230,6 @@
         The complete fix is only available with a recent AJP forwarder like
         the forthcoming mod_jk 1.2.41. (rjung)
       </fix>
-      <fix>
-        <bug>57544</bug>: Fix potential infinite loop when preparing a kept
-        alive HTTP connection for the next request. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
