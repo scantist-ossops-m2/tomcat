@@ -222,6 +222,10 @@
       <fix>
         <bug>61945</bug>: Fix prototype mode used to compile tags. (remm)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
