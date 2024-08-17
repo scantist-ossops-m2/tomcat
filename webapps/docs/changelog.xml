@@ -844,6 +844,10 @@
         <code>ipv6v6only</code> attribute with the APR/Native implementation.
         (markt)
       </add>
+      <fix>
+        Improve the recycling of Processor objects to make it more robust.
+        (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
