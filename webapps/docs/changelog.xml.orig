@@ -83,6 +83,9 @@
         control the size of the buffer used by Jasper when buffering tag bodies.
         (markt)
       </add>
+      <fix>
+        <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
