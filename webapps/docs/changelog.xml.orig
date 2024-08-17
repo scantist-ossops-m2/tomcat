@@ -149,6 +149,10 @@
   <subsection name="Other">
     <changelog>
       <fix>
+        Additional fix for <bug>64830</bug> to address an edge case that could
+        trigger request corruption with h2c connections. (markt)
+      </fix>
+      <fix>
         <bug>64498</bug>: Fix incorrect version format in OSGi manifests. Patch
         provided by Raymond Augé. (markt)
       </fix>
