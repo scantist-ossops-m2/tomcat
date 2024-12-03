@@ -151,6 +151,9 @@
         to run Tomcat clustering over an untrusted network. This is
         CVE-2022-29885. (markt)
       </fix>
+      <fix>
+        Avoid protocol relative redirects in FORM authentication. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
