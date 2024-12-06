@@ -200,6 +200,10 @@
         Show connector cipher list in the manager web application in the
         correct cipher order. (rjung)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Tribes">
