@@ -126,6 +126,11 @@
         Include the target URL in the log message when a WebSocket connection
         fails. (markt)
       </add>
+      <fix>
+        <bug>66471</bug>: Fix JSessionId secure attribute missing When
+        <code>RemoteIpFilter</code> determines that this request was submitted
+        via a secure channel. (lihan)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">

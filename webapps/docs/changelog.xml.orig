@@ -239,6 +239,12 @@
         Make handling of OpenSSL read errors more robust when plain text data is
         reported to be available to read. (markt)
       </fix>
+      <fix>
+        Update the documentation web application to state that the
+        <code>EncryptInterceptor</code> does not provide sufficient protection
+        to run Tomcat clustering over an untrusted network. This is
+        CVE-2022-29885. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
