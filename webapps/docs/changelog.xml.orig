@@ -124,6 +124,9 @@
         header can be tailored based on the properties of the request, such as
         the user agent, if required. Based on a patch by Lazar Kirchev. (markt)
       </add>
+      <fix>
+        <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
