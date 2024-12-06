@@ -134,11 +134,6 @@
         <code>RemoteIpFilter</code> determines that this request was submitted
         via a secure channel. (lihan)
       </fix>
-      <fix>
-        Improve error reporting to HTTP/2 clients for header processing errors
-        by reporting problems at the end of the frame where the error was
-        detected rather than at the end of the headers. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
