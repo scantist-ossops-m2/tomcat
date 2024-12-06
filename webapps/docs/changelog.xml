@@ -121,6 +121,9 @@
         Expand the coverage and quality of the Russian translations provided
         with Apache Tomcat. (kkolinko)
       </add>
+      <fix>
+        <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
