@@ -122,6 +122,10 @@
         must be sent in order of increasing stream ID. These restriction were
         not being enforced leading to protocol errors at the client. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
