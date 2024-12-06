@@ -140,9 +140,6 @@
         <code>Expires</code> header as required by HTTP specification
         (RFC 7231, 7234). (kkolinko)
       </fix>
-      <fix>
-       Refactor JMX remote RMI registry creation. (remm)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
