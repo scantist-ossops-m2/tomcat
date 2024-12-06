@@ -82,6 +82,9 @@
         start rather than at servlet load time to ensure constraints are applied
         consistently. (markt)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
