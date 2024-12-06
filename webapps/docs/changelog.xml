@@ -113,6 +113,9 @@
         Language API is able to load classes from the Java runtime when running
         under a SecurityManager. Based on a patch by Volodymyr Siedleck. (markt)
       </fix>
+      <fix>
+        Avoid protocol relative redirects in FORM authentication. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
