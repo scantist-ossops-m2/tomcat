@@ -156,6 +156,10 @@
         <pr>447</pr>. Correct JPMS metadata for catalina.jar. Pull request
         provided by Hui Wang. (markt)
       </fix>
+      <fix>
+        Examples. Fix CVE-2022-34305, a low severity XSS vulnerability in the
+        Form authentication example. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
