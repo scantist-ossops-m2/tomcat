@@ -953,6 +953,9 @@
         properties instance associated with the session. Based on a pull request
         by sakshamverma. (markt)
       </add>
+      <fix>
+        Avoid protocol relative redirects in FORM authentication. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
