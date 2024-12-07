@@ -204,6 +204,10 @@
         <code>JarEntry</code> objects normally skipped by a
         <code>JarInputStream</code> only if those entries exist. (markt)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
