@@ -129,6 +129,10 @@
       <update>
         Update to the Eclipse JDT compiler 4.12. (markt)
       </update>
+      <scode>
+        Use <code>java.nio.file.Path</code> to test for one directory being a
+        sub-directory of another in a consistent way. (markt)
+      </scode>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
