@@ -771,6 +771,10 @@
         Improvements to Spanish translations. Provided by Andrewlanecarr.
         (markt)
       </add>
+      <fix>
+        Improve the recycling of Processor objects to make it more robust.
+        (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
