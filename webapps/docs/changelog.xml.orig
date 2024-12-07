@@ -226,6 +226,10 @@
         to report the build date for the documentation. Patch provided by
         Michael Osipov. (markt)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
