@@ -341,6 +341,10 @@
       <update>
         Update the recommended minimum Tomcat Native version to 1.2.23. (markt)
       </update>
+      <scode>
+        Use <code>java.nio.file.Path</code> to test for one directory being a
+        sub-directory of another in a consistent way. (markt)
+      </scode>
     </changelog>
   </subsection>
   <subsection name="Coyote">
