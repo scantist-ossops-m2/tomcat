@@ -70,6 +70,9 @@
       <fix>
         Remove unnecessary shutdown for executor. (kfujino)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
