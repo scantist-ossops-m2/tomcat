@@ -98,6 +98,9 @@
         When configuring the JMX remote listener, specify the allowed types for
         the credentials. (markt)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
