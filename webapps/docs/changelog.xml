@@ -80,6 +80,10 @@
         When generating a redirect to a directory in the Default Servlet, avoid
         generating a protocol relative redirect. (markt)
       </fix>
+      <add>
+        <bug>64871</bug>: Log a warning if Tomcat blocks access to a file
+        because it uses symlinks. (markt)
+      </add>
     </changelog>
   </subsection>
   <subsection name="Coyote">
