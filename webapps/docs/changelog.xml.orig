@@ -110,6 +110,10 @@
         compilation caused by the fix for <bug>53492</bug>. Patch provided by
         Bernhard Frauendienst. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
