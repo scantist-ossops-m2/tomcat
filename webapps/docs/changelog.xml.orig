@@ -215,6 +215,10 @@
         <bug>60437</bug>: Avoid possible handshake overflows in the websocket
         client. (remm)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="jdbc-pool">
