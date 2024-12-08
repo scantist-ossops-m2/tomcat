@@ -94,6 +94,9 @@
         of the <code>JreMemoryLeakPreventionListener</code> when running on Java
         9 and above since the underlying JRE bug has been fixed. (markt)
       </add>
+      <fix>
+        <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
