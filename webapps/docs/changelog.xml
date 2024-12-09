@@ -167,6 +167,11 @@
         listeners added to the <code>ELContext</code>. Pull request provided by
         Thomas Andraschko. (markt)
       </fix>
+      <fix>
+        Improve error reporting to HTTP/2 clients for header processing errors
+        by reporting problems at the end of the frame where the error was
+        detected rather than at the end of the headers. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Web applications">
