@@ -118,6 +118,10 @@
         <bug>63246</bug>: Fix a potential <code>NullPointerException</code> when
         calling <code>AsyncContext.dispatch()</code>. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
