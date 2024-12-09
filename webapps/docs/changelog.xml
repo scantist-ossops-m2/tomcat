@@ -115,6 +115,9 @@
       <fix>
         <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
       </fix>
+      <fix>
+        Avoid protocol relative redirects in FORM authentication. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="WebSocket">
