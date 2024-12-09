@@ -122,6 +122,10 @@
         <bug>65111</bug>: Free direct memory buffers in the APR connector.
         (remm)
       </fix>
+      <fix>
+        Examples. Fix CVE-2022-34305, a low severity XSS vulnerability in the
+        Form authentication example. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
