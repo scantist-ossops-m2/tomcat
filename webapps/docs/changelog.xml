@@ -181,6 +181,11 @@
         <bug>64467</bug>: Improve performance of closing idle HTTP/2 streams.
         (markt)
       </fix>
+      <fix>
+        Improve error reporting to HTTP/2 clients for header processing errors
+        by reporting problems at the end of the frame where the error was
+        detected rather than at the end of the headers. (markt)
+      </fix>
     </changelog>
   </subsection>
 </section>
