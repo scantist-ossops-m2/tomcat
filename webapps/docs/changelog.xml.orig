@@ -206,6 +206,10 @@
         attributes and operations rather than relying on introspection. Add a
         new MBean to expose the <code>Socketproperties</code> values. (markt)
       </fix>
+      <fix>
+        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
+        clients. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Jasper">
