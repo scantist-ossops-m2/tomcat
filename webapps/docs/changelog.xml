@@ -121,6 +121,9 @@
         <bug>64871</bug>: Log a warning if Tomcat blocks access to a file
         because it uses symlinks. (markt)
       </add>
+      <fix>
+        <bug>64830</bug>: Fix concurrency issue in HPACK decoder. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
