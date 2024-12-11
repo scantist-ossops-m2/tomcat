@@ -250,10 +250,6 @@
         will return <code>false</code> instead of throwing
         <code>IllegalStateException</code>. (violetagg)
       </fix>
-      <fix>
-        Process transfer encoding headers from both HTTP 1.0 and HTTP 1.1
-        clients. (markt)
-      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
