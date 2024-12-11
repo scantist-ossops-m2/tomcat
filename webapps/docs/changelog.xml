@@ -113,6 +113,10 @@
         Within the Expires filter, make the content type value specified with the
         <code>ExpiresByType</code> parameter, case insensitive. (markt)
       </fix>
+      <fix>
+        Ensure that the HTTP/1.1 processor is correctly recycled when a direct
+        connection to h2c is made. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
