@@ -152,6 +152,9 @@
         by <code>WebappClassLoaderBase.getResources(String)</code> according to
         the setting of the delegate flag. (markt)
       </fix>
+      <fix>
+       Refactor JMX remote RMI registry creation. (remm)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Coyote">
