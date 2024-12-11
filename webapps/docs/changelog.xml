@@ -158,6 +158,11 @@
         to run Tomcat clustering over an untrusted network. This is
         CVE-2022-29885. (markt)
       </fix>
+      <fix>
+        Improve error reporting to HTTP/2 clients for header processing errors
+        by reporting problems at the end of the frame where the error was
+        detected rather than at the end of the headers. (markt)
+      </fix>
     </changelog>
   </subsection>
   <subsection name="Other">
